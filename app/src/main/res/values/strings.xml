@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment1 - Lillyblad and Monken</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_view1">Patient ID</string>
+    <string name="text_view2">Age</string>
+    <string name="text_view3">Patient Name</string>
+    <string name="radial_group1">Sex</string>
+    <string name="radial1">Male</string>
+    <string name="radial2">Female</string>
+    <string name="button1">RUN</string>
+    <string name="button2">STOP</string>
+    <string name="title_activity_run">Assignment2 - Lillyblad and Monken</string>
+    <string name="sex">Sex</string>
+
+</resources>

@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0px"
+    android:paddingRight="0px"
+    android:paddingTop="0px"
+    android:paddingBottom="0px"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="#ff696969"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/mainLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffe5e5e5"
+            android:id="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view1"
+                    android:id="@+id/textView1"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ff000000"
+                    android:textSize="12sp"
+                    android:textIsSelectable="true" />
+
+                <EditText
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText1"
+                    android:textColor="#ff000000"
+                    android:background="#ffffffff"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view2"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ff000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText2"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#ffffffff"
+                    android:textColor="#ff000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="114dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view3"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ff000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ff000000"
+                    android:background="#ffffffff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout5"
+                android:background="#ffe5e5e5">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button1"
+                    android:id="@+id/button"
+                    android:clickable="true"
+                    android:background="#ff06e614"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button2"
+                    android:id="@+id/button3"
+                    android:background="#ffe60010"
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:divider="@drawable/ic_launcher"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignStart="@+id/linearLayout3"
+            android:background="#ffe5e5e5"
+            android:layout_alignRight="@+id/linearLayout3"
+            android:layout_alignEnd="@+id/linearLayout3">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radial1"
+                android:id="@+id/radioButton1"
+                android:checked="false"
+                android:clickable="true"
+                android:layout_gravity="bottom"
+                android:textSize="12sp"
+                android:layout_marginLeft="9dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radial2"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:clickable="true"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/radioGroup1">
+
+            <com.example.group1.assignment2.GraphView
+                android:id="@+id/myGraphView"
+                android:layout_width="match_parent"
+                android:layout_height="409dp" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
